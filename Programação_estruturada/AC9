@@ -1,0 +1,93 @@
+# Distância - 1016
+
+entrada = int(input())
+print(entrada * 2, "minutos")
+
+# Fatorial Simples - 1153
+
+entrada = int(input())
+n = 1
+for i in range(entrada):
+    n *= i+1
+print(n)
+
+# Ida à Feira - 1281
+
+numero_de_casos = int(input())
+for _ in range(numero_de_casos):
+    numero_de_itens = int(input())
+    preco = {}
+    quantidade = {}
+    compra = 0
+    for i in range(numero_de_itens):
+        item = input()
+        item = list(item.split(" "))
+        preco[item[0]] = float(item[-1])
+    quero_itens = int(input())
+
+    for i in range(quero_itens):
+        quero = input()
+        quero = list(quero.split(" "))
+        quantidade[quero[0]] = int(quero[-1])
+
+    for i in quantidade:
+        for j in preco:
+            if i==j:
+                compra+=quantidade[i]*preco[j]
+    print(f"R$ {compra:.2f}")
+
+# Identificando o chá - 2006
+
+cha = input()
+lista = input()
+lista = list(lista.split(" "))
+contador = 0
+for i in lista:
+    if i == cha:
+        contador += 1
+print(contador)
+
+# Aviões de Papel - 2339
+
+entrada = input()
+entrada = list(map(int, entrada.split(" ")))
+
+if (entrada [0]*entrada[-1]) <= entrada[1]:
+    print("S")
+else:
+    print("N")
+
+# Tacógrafo - 2388
+
+n = int(input())
+distancia = 0
+
+for i in range(n):
+    entrada = input()
+    entrada = list(map(int, entrada.split(" ")))
+    distancia += entrada[0]*entrada[1]
+print(distancia)
+
+# Busca na Internet - 2413
+
+entrada = int(input())
+print(entrada*4)
+
+# Sequência Secreta - 3048
+
+nums = int(input())
+lista = []
+contador=0
+for i in range(nums):
+    a = int(input())
+    lista.append(a)
+
+ponteiro = 0
+
+for i in lista:
+    if i != ponteiro:
+        contador += 1
+    ponteiro = i
+
+print(contador)
+
