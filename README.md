@@ -175,10 +175,10 @@
 
 **21. Explique e dê exemplos funcionais de utilização das propriedades de posicionamento: static, relative, absolute e fixed.**
 
-Static: Posição padrão no fluxo do documento.
-Relative: Posição relativa à sua localização original.
-Absolute: Removido do fluxo e posicionado em relação ao elemento pai.
-Fixed: Fixo em relação ao viewport, permanecendo no mesmo lugar ao rolar a página.
+- Static: Posição padrão no fluxo do documento.
+- Relative: Posição relativa à sua localização original.
+- Absolute: Removido do fluxo e posicionado em relação ao elemento pai.
+- Fixed: Fixo em relação ao viewport, permanecendo no mesmo lugar ao rolar a página.
 
 ```html
 <!DOCTYPE html>
