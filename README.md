@@ -1,4 +1,4 @@
-Aqui estão os exercícios combinados com as respostas correspondentes:
+
 
 ---
 
@@ -175,6 +175,11 @@ Aqui estão os exercícios combinados com as respostas correspondentes:
 
 **21. Explique e dê exemplos funcionais de utilização das propriedades de posicionamento: static, relative, absolute e fixed.**
 
+Static: Posição padrão no fluxo do documento.
+Relative: Posição relativa à sua localização original.
+Absolute: Removido do fluxo e posicionado em relação ao elemento pai.
+Fixed: Fixo em relação ao viewport, permanecendo no mesmo lugar ao rolar a página.
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -235,3 +240,138 @@ Aqui estão os exercícios combinados com as respostas correspondentes:
 </body>
 </html>
 ```
+
+
+
+---
+
+### **Protocolos**【14†source】
+
+#### **Protocolos**
+- **Definição de protocolo**: Conjunto de regras que define o formato e a ordem das mensagens trocadas e as ações realizadas quando elas são enviadas e recebidas.
+- **Protocolos de rede**: Controlam a comunicação entre máquinas na internet.
+- **Exemplos de protocolos**: TCP para transferência confiável, UDP para transmissão mais rápida e menos confiável.
+- **Camadas de protocolos**:
+  - **Física**: Movimenta bits no meio físico.
+  - **Enlace**: Transfere dados entre elementos vizinhos.
+  - **Rede**: Roteia datagramas da origem ao destino (ex: IP).
+  - **Transporte**: Transferência de dados entre processos (TCP/UDP).
+  - **Aplicação**: Interface para aplicativos de rede (ex: HTTP, SMTP, FTP).
+
+#### **Arquitetura de Redes**
+- **Cliente-servidor**: O servidor está sempre disponível com um IP fixo, enquanto os clientes têm conexões intermitentes e endereços IP dinâmicos.
+- **Peer-to-peer (P2P)**: Comunicação direta entre usuários sem a necessidade de um servidor central.
+
+#### **Segurança TCP**
+- O **SSL** (Secure Sockets Layer) provê encriptação para conexões TCP, autenticidade e integridade dos dados.
+  
+---
+
+### **CSS**【15†source】
+
+#### **CSS (Cascading Style Sheets)**
+- **Definição**: Linguagem de estilo usada para aplicar estilos aos elementos HTML.
+- **Seletores**:
+  - **Tag**: Aplica estilos a todos os elementos de determinado tipo (ex: `p` para parágrafos).
+  - **ID**: Aplica estilos a um único elemento identificado por um ID (ex: `#meu-id`).
+  - **Classe**: Aplica estilos a todos os elementos com uma classe específica (ex: `.minha-classe`).
+  - **Pseudo-classes**: Aplica estilos em um estado específico de um elemento (ex: `:hover` para quando o mouse está sobre o elemento).
+
+#### **Box Model**
+- **Padding**: Espaço interno entre o conteúdo e a borda.
+- **Border**: Linha ao redor do conteúdo.
+- **Margin**: Espaço externo ao redor do elemento.
+
+#### **Unidades CSS**
+- **Relativas**: `em` (relativo ao tamanho da fonte atual), `vw` (1% da largura do viewport).
+- **Absolutas**: `px` (pixels), `cm` (centímetros).
+
+#### **Layouts CSS**
+- **Flexbox**: Organiza elementos em uma estrutura flexível.
+- **CSS Grid Layout**: Cria uma estrutura de linhas e colunas para organizar o conteúdo.
+
+#### **Posicionamento**
+- **Static**: Posição padrão no fluxo do documento.
+- **Relative**: Posição relativa à sua localização original.
+- **Absolute**: Removido do fluxo e posicionado em relação ao elemento pai.
+- **Fixed**: Fixo em relação ao viewport, permanecendo no mesmo lugar ao rolar a página.
+
+
+---
+
+### **Apresentação do curso**【16†source】
+
+#### **Objetivos do Curso**
+- **Desenvolver websites** usando ferramentas e padrões modernos.
+- **Implementar segurança** e controle na disponibilização de dados via internet.
+- **Atualizar e otimizar** aplicações e websites.
+
+#### **Arquitetura da Web**
+- **Cliente-servidor**: Estrutura onde o cliente faz requisições e o servidor responde.
+- **Protocolos**: 
+  - **TCP** (protocolo de transporte confiável) e **UDP** (protocolo mais rápido, mas sem garantias de entrega).
+  - **HTTP** (protocolo de transferência de hipertexto).
+  - **DNS** (sistema de nomes de domínio).
+
+#### **Versionamento de Código**
+- **Sistemas de versionamento** (Git, SVN, Mercurial) permitem controlar as mudanças no código ao longo do tempo e facilitam o trabalho em equipe.
+  
+#### **Documentos Web**
+- **HTML**: Define a estrutura e o conteúdo da página web.
+- **CSS**: Descreve a apresentação visual.
+- **JavaScript**: Adiciona interatividade e manipulação dinâmica dos elementos na página.
+
+#### **Exemplo HTML Básico**
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Documento de Teste</title>
+  </head>
+  <body>
+    <p>Esse é um documento de teste.</p>
+  </body>
+</html>
+```
+
+#### **Ambiente de Desenvolvimento**
+- **Ferramentas necessárias**:
+  - **Editor de texto** (ex: VSCode).
+  - **Navegador** para testar as páginas.
+  - **Sistema de versionamento** (ex: Git).
+  - **Servidor local** para rodar as aplicações (ex: Python HTTP server).
+
+
+---
+
+### **HTML**【5†source】
+
+#### **Versionamento**
+- **Vantagens**: Controle de mudanças e facilitação do trabalho colaborativo.
+  
+#### **Diferença entre Git e GitHub**
+- **Git**: Sistema de versionamento.
+- **GitHub**: Plataforma de hospedagem de repositórios Git.
+
+#### **Linguagens Web**
+- **HTML**: Marcação para estruturar documentos.
+- **CSS**: Estilo e apresentação.
+- **JavaScript**: Interatividade e comportamento dinâmico.
+
+#### **Elementos HTML**
+- **Tag**: O marcador que define um elemento (ex: `<p>`).
+- **Atributo**: Informações extras sobre um elemento (ex: `class`, `id`).
+- **Elemento**: Conjunto da tag e seu conteúdo.
+
+#### **Protocolos de Internet**
+- **Pilha de protocolos**: Organizada em camadas, cada uma com uma função específica (física, enlace, rede, transporte e aplicação).
+
+#### **Posicionamento CSS**
+- **Static**, **relative**, **absolute** e **fixed** controlam como os elementos são exibidos na página.
+
+#### **Formulários HTML**
+- Elementos como `input`, `textarea`, `select`, `button` e `label` capturam dados do usuário.
+
+---
+
